@@ -3,11 +3,11 @@
 
 |項目||
 |---|---|
-|氏名|NEVERNOTHINGJP () [?]|
-|生年月日|XXXX年X月 XX歳|
-|最寄駅|XX駅|
-|最終学歴|龍谷大学 理工学部 電子情報学科 XXXX年XX月 卒業|
-|得意分野|設計/プログラミング|
+|氏名|T.Y|
+|生年月日|YYYY年MM月 XXX歳|
+|最寄駅|神田駅|
+|最終学歴|龍谷大学 理工学部 電子情報学科 卒業|
+|得意分野|設計/プログラミング/サーバー構築|
 
 ---
 
@@ -16,15 +16,16 @@
 |---|---|---|---|
 |アセンブラ|実務では1年程度/最近は経験なし|C/C++|実務では3年以上/最近は経験なし|
 |VB/VB.NET|3年以上|Java|10年|
-|Scala|数か月程度/最近使用|Kotlin|数か月程度/最近使用|
+|Scala|数か月程度|Kotlin|数か月程度|
 |Struts/Struts2|3年以上|SpringFramework/SpringBoot|2年以上|
 |PHP|実務では数か月程度|Perl|実務では1年程度|
 |Python|実務では2年程度|JavaScript|10年|
-|jQuery|2年以上|vue.js/Nuxt.js|数か月程度/最近使用|
+|jQuery|2年以上|Vue.js/Nuxt.js|数か月程度|
 |CentOS/Redhat|5年以上|Debian/Ubuntu|5年以上|
-|Oracle|5年以上|SQLServer|数か月程度/最近は経験なし|
+|Oracle|5年以上|SQLServer|数か月程度|
 |MySQL系|5年以上|PostgreSQL|5年以上|
-|AWS|2年|Azure|数か月程度/最近使用|
+|DB2系|数か月程度||
+|AWS|2年|Azure|数か月程度|
 |その他クラウド|Heroku/Salesforce/その他VPS|||
 
 ---
@@ -52,7 +53,6 @@
 - 対応可能技術/経験の幅が広い
 - 技術調査/研究系を担当し技術指導を行うことも多かった
 - 数学的な話、アルゴリズム探求などが好き
-- IoT/AIなどに最近興味をもっていますが実務は数か月程度です
 
 ---
 
@@ -394,7 +394,7 @@ SQL-ServerのbatchからMySQL+Javaに移植
 |**担当**|詳細設計～生産/テスト|**役割**|メンバー|
 |**規模**|16人|||
 |**OS/環境**|Windows7、CentOS、AWS|**DB**|MySQL、PostgreSQL|
-|**言語**|Java|**フレームワーク**|Spring4、AngularJS|
+|**言語**|Java|**フレームワーク**|Spring4、Hibernate、AngularJS|
 |**ミドルウェア**|Nginx、Tomcat、Lucene|**ツール**|Git、Backlog、Slack、VirtualBox、JMater|
 
 大手キャリアのWEB広告配信システムにおける広告主向けシステムの新機能追加と不具合対応
@@ -447,7 +447,7 @@ Salesforceで作成された損害保険会社の代理店向けWEB画面をJava
 |**担当**|詳細設計～生産/テスト|**役割**|メンバー|
 |**規模**|100人|||
 |**OS/環境**|Windows|**DB**|Oracle|
-|**言語**|Java8|**フレームワーク**|Spring4(SDE)|
+|**言語**|Java8|**フレームワーク**|Spring4(SDE)、iBatis|
 |**ミドルウェア**|SpringBoot|**ツール**|Eclipse、SVN、JUNIT|
 
 OracleFormsで作成された基幹システムをJava(WEB)に再構築する。
@@ -464,7 +464,7 @@ OracleFormsで作成された基幹システムをJava(WEB)に再構築する。
 |**担当**|提案/基本設計～開発/テスト|**役割**|メンバー|
 |**規模**|20人|||
 |**OS/環境**|Windows10、Linux、RasberryPi|**DB**|PostgreSQL|
-|**言語**|Java8、Scala、Kotlin|**フレームワーク**|SpringBoot、PlayFrameWork、Vue.js|
+|**言語**|Java8、Scala、Kotlin|**フレームワーク**|SpringBoot、PlayFrameWork、Vue.js、Hibernate|
 
 小型タグを使ったBluetoothメッシュ通信による位置把握システムの構築
 - オフィスや工場で人や物の位置を把握し画面に表示するシステム
@@ -488,3 +488,17 @@ WEBサービスのアクセス解析を行うデータ収集プラットフォ�
 AWSのAutoScalingやCloudWatch、Lambdaを使った監視の仕組みの作成を行った。
 
 ---
+
+### 28 - 法人インバン/エレクトロニックバンキング統合PJ
+|項目|詳細|項目|詳細|
+|:--|:--|:--|:--|
+|**期間**|2019/04～2020/09(01年06ｹ月)|**業種**|銀行システム|
+|**担当**|設計/開発|**役割**|メンバー|
+|**規模**|30人|||
+|**OS/環境**|Windows7/10、AIX|**言語**|Java|
+|**DB**|DB2|**フレームワーク**|WAS/RAD|
+
+ISDNが廃止になるのでそれに合わせて法人向けバンキングシステムの再構築を行うプロジェクト。
+- 行内で使用するWEBシステムの画面設計
+- Javaによるバッチシステムの設計と開発およびテスト
+- C言語によるバッチシステムの設計
